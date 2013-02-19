@@ -2,6 +2,18 @@
   Apple Hardware Test (AHT)
 =============================
 
+ Description
+-------------
+
+Apple computers ship with a preinstalled suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the ``d`` key while booting. Newer models support holding ``option d`` to load AHT over the internet. Refer to the official Apple documentation for details: [Using AHT on Intel-based Macs](http://support.apple.com/kb/ht1509), [Using AHT on Mountain Lion](http://support.apple.com/kb/PH11342).
+
+If however, you reinstalled an older computer from scratch, the diagnostic tools might no longer be available. Unless you have the original disks that came with your computer, there seems to be no way to restore the AHT, as the [official AHT](http://www.info.apple.com/support/aht.html) page only contains information about ancient computer models.
+
+It happens that Apple provides disk images with AHT for most computers, but does not make the links publically available. Various blogs and forums, mostly [Riven by Five](http://rivenbyfive.blogspot.ch/2012/01/download-and-run-apple-hardware-test.html) and [MacForum.ro](http://macforum.ro/topic/1194-apple-hardware-test) have gathered a list of these download links, that can come in very handy to whoever is trying to debug hardware problems.
+
+Download the AHT for your computer model and use the contents to restore the ``/System/Library/CoreServices/.diagnostics`` folder, then reboot while holding ``d`` to start the diagnostic tools.
+
+
  Download Links
 ----------------
 
@@ -100,11 +112,3 @@
   - MacBook3,1    Mac-F22788C8
 
 
- Links
--------
-
-* [Riven by Five](http://rivenbyfive.blogspot.ch/2012/01/download-and-run-apple-hardware-test.html)
-* [MacForum.ro](http://macforum.ro/topic/1194-apple-hardware-test)
-* [Official AHT Downloads](http://www.info.apple.com/support/aht.html)
-* [Using AHT on Intel-based Macs](http://support.apple.com/kb/ht1509)
-* [Using AHT on Mountain Lion](http://support.apple.com/kb/PH11342)
