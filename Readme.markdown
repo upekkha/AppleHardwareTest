@@ -45,12 +45,18 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [iMac5,2       Mac-F4218EC8](http://download.info.apple.com/Apple_Hardware_Test/018-2535-A.dmg)
 * [iMac6,1       Mac-F4218FC8](http://download.info.apple.com/Apple_Hardware_Test/018-2579-A.dmg)
 * [iMac7,1       Mac-F42386C8](http://download.info.apple.com/Apple_Hardware_Test/018-2845-A.dmg)
+* [iMac9,1       Mac-F2218EC8](http://download.info.apple.com/Apple_Hardware_Test/022-4293-A.dmg)
+* [iMac9,1       Mac-F2218FC8](http://download.info.apple.com/Apple_Hardware_Test/022-4294-A.dmg)
+* [iMac9,1       Mac-F2218EA9](http://download.info.apple.com/Apple_Hardware_Test/022-4297-A.dmg)
+* [iMac10,1      Mac-F2268CC8](http://download.info.apple.com/Apple_Hardware_Test/022-4451-A.dmg)
+* [iMac10,1      Mac-F2268DC8](http://download.info.apple.com/Apple_Hardware_Test/022-4452-A.dmg)
 
 ### MacMini
 
 * [MacMini v1.1GMc2](http://download.info.apple.com/Apple_Hardware_Test/018-2079-A.dmg)
 * [MacMini1,1 3A102](http://download.info.apple.com/Apple_Hardware_Test/018-2342-A.dmg)
 * [MacMini2,1    Mac-F4208EAA](http://download.info.apple.com/Apple_Hardware_Test/018-2886-A.dmg)
+* [MacMini3,1    Mac-F22C86C8](http://download.info.apple.com/Apple_Hardware_Test/022-4292-A.dmg)
 
 ### MacPro
 
@@ -63,6 +69,8 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [MacBook2,1    Mac-F4208CA9](http://download.info.apple.com/Apple_Hardware_Test/018-2590-A.dmg)
 * [MacBook2,1    Mac-F4208CAA](http://download.info.apple.com/Apple_Hardware_Test/018-2766-A.dmg)
 * [MacBook3,1    Mac-F22788C8](http://download.info.apple.com/Apple_Hardware_Test/018-3085-A.dmg)
+* [MacBook5,2    Mac-F22788AA](http://download.info.apple.com/Apple_Hardware_Test/022-4299-A.dmg)
+* [MacBook6,1    Mac-F22C8AC8](http://download.info.apple.com/Apple_Hardware_Test/022-4453-A.dmg)
 
 ### MacBookPro
 
@@ -73,6 +81,9 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [MacBookPro3,1 Mac-F4238BC8](http://download.info.apple.com/Apple_Hardware_Test/018-2770-A.dmg)
 * [MacBookPro3,1 Mac-F42388C8](http://download.info.apple.com/Apple_Hardware_Test/018-2833-A.dmg)
 * [MacBookPro5,1 Mac-F42D86A9](http://download.info.apple.com/Apple_Hardware_Test/022-4266-A.dmg)
+* [MacBookPro5,3 Mac-F22587C8](http://download.info.apple.com/Apple_Hardware_Test/022-4343-A.dmg)
+* [MacBookPro5,4 Mac-F22587A1](http://download.info.apple.com/Apple_Hardware_Test/022-4344-A.dmg)
+* [MacBookPro5,5 Mac-F2268AC8](http://download.info.apple.com/Apple_Hardware_Test/022-4339-A.dmg)
 * [MacBookPro6,1 Mac-F22589C8](http://download.info.apple.com/Apple_Hardware_Test/022-4596-A.dmg)
 * [MacBookPro6,2 Mac-F22586C8](http://download.info.apple.com/Apple_Hardware_Test/022-4597-A.dmg)
 
