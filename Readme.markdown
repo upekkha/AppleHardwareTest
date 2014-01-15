@@ -11,6 +11,13 @@ If however, you reinstalled an older computer from scratch, the diagnostic tools
 
 It happens that Apple provides disk images with AHT for most computers, but does not make the links publically available. Various blogs and forums, mostly [Riven by Five](http://rivenbyfive.blogspot.ch/2012/01/download-and-run-apple-hardware-test.html) and [MacForum.ro](http://macforum.ro/topic/1194-apple-hardware-test) have gathered a list of these download links, that can come in very handy to whoever is trying to debug hardware problems.
 
+You can use the following terminal commands to determine the model and board ID of your computer:
+
+```sh
+system_profiler SPHardwareDataType | grep 'Model Identifier' | awk -F: '{ print $2 }'
+ioreg -p IODeviceTree -r -n / -d 1 | grep board-id | awk -F\" '{ print $4 }'
+```
+
 Download the AHT for your computer model and use the contents to restore the ``/System/Library/CoreServices/.diagnostics`` folder, then reboot while holding ``d`` to start the diagnostic tools.
 
 
