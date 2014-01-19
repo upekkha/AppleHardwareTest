@@ -9,7 +9,9 @@ Apple computers ship with a preinstalled suite of hardware diagnostic tools, kno
 
 If however, you reinstalled an older computer from scratch, the diagnostic tools might no longer be available. Unless you have the original disks that came with your computer, there seems to be no way to restore the AHT, as the [official AHT](http://www.info.apple.com/support/aht.html) page only contains information about ancient computer models.
 
-It happens that Apple provides disk images with AHT for most computers, but does not make the links publically available. Various blogs and forums, mostly [Riven by Five](http://rivenbyfive.blogspot.ch/2012/01/download-and-run-apple-hardware-test.html) and [MacForum.ro](http://macforum.ro/topic/1194-apple-hardware-test) have gathered a list of these download links, that can come in very handy to whoever is trying to debug hardware problems.
+It happens that Apple provides disk images with AHT for most computers, but does not make the links publically available. Various blogs and forums, mostly [Riven by Five](http://rivenbyfive.blogspot.ch/2012/01/download-and-run-apple-hardware-test.html) and [MacForum.ro](http://macforum.ro/topic/1194-apple-hardware-test) have gathered a list of download links. The rest were obtained by scraping `http://download.info.apple.com/Apple_Hardware_Test/` for all the links of the form `0(18|22)-\d{4}-A.dmg`.
+
+Even though there's no guarantee that this list is correct or complete, some links can come in very handy to whoever is trying to debug hardware problems.
 
 You can use the following terminal commands to determine the model and board ID of your computer:
 
