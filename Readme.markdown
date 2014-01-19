@@ -5,7 +5,7 @@
  Description
 -------------
 
-Apple computers ship with a preinstalled suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the ``d`` key while booting. Newer models support holding ``option d`` to load AHT over the internet. Refer to the official Apple documentation for details: [Using AHT on Intel-based Macs](http://support.apple.com/kb/ht1509), [Using AHT on Mountain Lion](http://support.apple.com/kb/PH11342).
+Apple computers ship with a preinstalled suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the ``d`` key while booting. Newer models support holding ``option d`` to load AHT over the internet. Refer to the official Apple documentation for details: Using AHT on [Intel-based Macs](http://support.apple.com/kb/ht1509), [Mountain Lion](http://support.apple.com/kb/PH11342), and [Mavericks](http://support.apple.com/kb/PH14291).
 
 If however, you reinstalled an older computer from scratch, the diagnostic tools might no longer be available. Unless you have the original disks that came with your computer, there seems to be no way to restore the AHT, as the [official AHT](http://www.info.apple.com/support/aht.html) page only contains information about ancient computer models.
 
