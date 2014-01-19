@@ -137,43 +137,43 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2418-A.dmg)
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/022-4706-A.dmg)
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/018-3169-A.dmg)
-  - iMac5,2        Mac-F4218EC8
-  - iMac7,1        Mac-F4238CC8
-  - iMac7,1        Mac-F42386C8
-  - Macmini2,1     Mac-F4208EAA
+  - MacBook3,1     Mac-F22788C8
+  - MacBookPro3,1  Mac-F42388C8
+  - MacBookPro3,1  Mac-F4238BC8
+  - MacMini2,1     Mac-F4208EAA
   - MacPro1,1      Mac-F4208DC8
   - MacPro2,1      Mac-F4208DA9
-  - MacBookPro3,1  Mac-F4238BC8
-  - MacBookPro3,1  Mac-F42388C8
-  - MacBook3,1     Mac-F22788C8
+  - iMac5,2        Mac-F4218EC8
+  - iMac7,1        Mac-F42386C8
+  - iMac7,1        Mac-F4238CC8
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/018-3254-A.dmg)
-  - iMac5,2        Mac-F4218EC8
-  - iMac7,1        Mac-F4238CC8
-  - iMac7,1        Mac-F42386C8
-  - Macmini2,1     Mac-F4208EAA
+  - MacBook3,1     Mac-F22788C8
+  - MacBookPro3,1  Mac-F42388C8
+  - MacBookPro3,1  Mac-F4238BC8
+  - MacMini2,1     Mac-F4208EAA
   - MacPro1,1      Mac-F4208DC8
   - MacPro2,1      Mac-F4208DA9
-  - MacBookPro3,1  Mac-F4238BC8
-  - MacBookPro3,1  Mac-F42388C8
-  - MacBook3,1     Mac-F22788C8
+  - iMac5,2        Mac-F4218EC8
+  - iMac7,1        Mac-F42386C8
+  - iMac7,1        Mac-F4238CC8
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-5205-A.dmg)
-  - MacBookAir4,2  Mac-742912EFDBEE19B3
   - MacBookAir4,1  Mac-C08A6BB70A942AC2
+  - MacBookAir4,2  Mac-742912EFDBEE19B3
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-5207-A.dmg)
-  - MacMini5,2     Mac-4BC72D62AD45599E
   - MacMini5,1     Mac-8ED6AF5B48C039E1
+  - MacMini5,2     Mac-4BC72D62AD45599E
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-5344-A.dmg)
   - iMac12,1       Mac-942B5BF58194151B
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-5348-A.dmg)
-  - MacBookPro8,2  Mac-94245A3940C91C80
-  - MacBookPro8,1  Mac-94245B3640C91C81
-  - MacBookPro8,3  Mac-942459F5819B171B
-  - iMac12,1       Mac-942B5BF58194151B
-  - iMac12,2       Mac-942B59F58194171B
-  - MacPro4,1      Mac-F221BEC8
-  - MacPro5,1      Mac-F221BEC8
   - MacBook6,1     Mac-F22C8AC8
   - MacBook7,1     Mac-F22C89C8
+  - MacBookPro8,1  Mac-94245B3640C91C81
+  - MacBookPro8,2  Mac-94245A3940C91C80
+  - MacBookPro8,3  Mac-942459F5819B171B
+  - MacPro4,1      Mac-F221BEC8
+  - MacPro5,1      Mac-F221BEC8
+  - iMac12,1       Mac-942B5BF58194151B
+  - iMac12,2       Mac-942B59F58194171B
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-5745-A.dmg)
   - MacBookAir5,1  Mac-66F35F19FE2A0D05
   - MacBookAir5,2  Mac-2E6FAB96566FE58C
@@ -185,13 +185,13 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/022-6031-A.dmg)
   - MacBookAir5,1  Mac-66F35F19FE2A0D05
   - MacBookAir5,2  Mac-2E6FAB96566FE58C
+  - MacBookPro10,1 Mac-C3EC7CD22292981F
+  - MacBookPro10,2 Mac-AFD8A9D944EA4843
   - MacBookPro9,1  Mac-4B7AC7E43945597E
   - MacBookPro9,2  Mac-6F01561E16C75D06
   - MacBookPro9,2  Mac-7DF2A3B5E5D671ED
-  - MacBookPro10,1 Mac-C3EC7CD22292981F
-  - MacBookPro10,2 Mac-AFD8A9D944EA4843
+  - MacMini6,1     Mac-031AEE4D24BFF0B1
+  - MacMini6,2     Mac-F65AE981FFA204ED
   - iMac12,1       Mac-942B5BF58194151B
   - iMac13,1       Mac-00BE6ED71E35EB86
   - iMac13,2       Mac-FC02E91DDD3FA6A4
-  - Macmini6,1     Mac-031AEE4D24BFF0B1
-  - Macmini6,2     Mac-F65AE981FFA204ED
