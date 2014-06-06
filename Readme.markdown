@@ -76,6 +76,7 @@ Download the AHT for your computer model and use the contents to restore the ``/
 * [MacMini2,1    Mac-F4208EAA](http://download.info.apple.com/Apple_Hardware_Test/018-2886-A.dmg)
 * [MacMini3,1    Mac-F22C86C8](http://download.info.apple.com/Apple_Hardware_Test/022-4292-A.dmg)
 * [MacMini4,1    Mac-F2208EC8](http://download.info.apple.com/Apple_Hardware_Test/022-4739-A.dmg)
+* [MacMini4,1    Mac-F2208EC8](http://download.info.apple.com/Apple_Hardware_Test/022-4706-A.dmg)
 * [MacMini5,1    Mac-8ED6AF5B48C039E1](http://download.info.apple.com/Apple_Hardware_Test/022-5207-A.dmg)
 * [MacMini5,2    Mac-4BC72D62AD45599E](http://download.info.apple.com/Apple_Hardware_Test/022-5207-A.dmg)
 
@@ -147,7 +148,6 @@ Download the AHT for your computer model and use the contents to restore the ``/
 
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2393-A.dmg)
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2418-A.dmg)
-* [unidentified](http://download.info.apple.com/Apple_Hardware_Test/022-4706-A.dmg)
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/018-3169-A.dmg)
   - MacBook3,1     Mac-F22788C8
   - MacBookPro3,1  Mac-F42388C8
