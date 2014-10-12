@@ -191,3 +191,24 @@ Download the AHT for your computer model and use the contents to restore the ``/
   - iMac12,1       Mac-942B5BF58194151B
   - iMac13,1       Mac-00BE6ED71E35EB86
   - iMac13,2       Mac-FC02E91DDD3FA6A4
+
+### Hosted on third-party servers
+
+* [Bundle](http://arhiva.macforum.ro/comunitate/files/file/14-apple-hardware-test-imac101/)
+  - MacBook5,1     Mac-F42D89A9
+  - MacBook5,1     Mac-F42D89C8
+  - MacBook5,2     Mac-F22788AA
+  - MacBook6,1     Mac-F22C8AC8
+  - MacBookAir2,1  Mac-F42D88C8
+  - MacBookPro5,1  Mac-F42D86A9
+  - MacBookPro5,1  Mac-F42D86C8
+  - MacBookPro5,2  Mac-F2268EC8
+  - MacBookPro5,3  Mac-F22587C8
+  - MacBookPro5,4  Mac-F22587A1
+  - MacBookPro5,5  Mac-F2268AC8
+  - MacMini3,1     Mac-F22C86C8
+  - iMac9,1        Mac-F2218EC8
+  - iMac9,1        Mac-F2218FC8
+  - iMac10,1       Mac-F2268CC8
+  - iMac10,1       Mac-F2268DC8
+  - iMac11,1       Mac-F2268DAE
