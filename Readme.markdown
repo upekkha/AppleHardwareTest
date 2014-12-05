@@ -5,7 +5,7 @@
  Description
 -------------
 
-Apple computers ship with a pre-installed suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the ``d`` key while booting. Newer models support holding ``option d`` to load AHT over the internet. Refer to the official Apple documentation for details: Using AHT on [Intel-based Macs](http://support.apple.com/kb/ht1509), [Mountain Lion](http://support.apple.com/kb/PH11342), [Mavericks](http://support.apple.com/kb/PH14291) and [Yosemite](http://support.apple.com/kb/PH18765). Apple redesigned the AHT, now called [Apple Diagnostics](http://support.apple.com/kb/HT5781), for Macs introduced after June 2013. Consult the [reference codes](http://support.apple.com/en-us/HT203747) to interpret the results.
+Apple computers ship with a pre-installed suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the `d` key while booting. Newer models support holding `option d` to load AHT over the internet. Refer to the official Apple documentation for details: Using AHT on [Intel-based Macs](http://support.apple.com/kb/ht1509), [Mountain Lion](http://support.apple.com/kb/PH11342), [Mavericks](http://support.apple.com/kb/PH14291) and [Yosemite](http://support.apple.com/kb/PH18765). Apple redesigned the AHT, now called [Apple Diagnostics](http://support.apple.com/kb/HT5781), for Macs introduced after June 2013. Consult the [reference codes](http://support.apple.com/en-us/HT203747) to interpret the results.
 
 If however, you reinstalled an older computer from scratch, the diagnostic tools might no longer be available. Unless you have the original disks that came with your computer, there seems to be no way to restore the AHT.
 
@@ -20,7 +20,7 @@ system_profiler SPHardwareDataType | grep 'Model Identifier' | awk -F: '{ print 
 ioreg -l | grep board-id | awk -F\" '{ print $4 }'
 ```
 
-Download the AHT for your computer model and use the contents to restore the ``/System/Library/CoreServices/.diagnostics`` folder, then reboot while holding ``d`` to start the diagnostic tools.
+Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `d` to start the diagnostic tools.
 
 
  Download Links
