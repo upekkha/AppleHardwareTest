@@ -16,7 +16,7 @@ Even though there's no guarantee that this list is correct or complete, some lin
 You can use the following terminal commands to determine the model and board ID of your computer:
 
 ```sh
-system_profiler SPHardwareDataType | grep 'Model Identifier' | awk -F: '{ print $2 }'
+sysctl hw.model | awk '{ print $2 }'
 ioreg -l | grep board-id | awk -F\" '{ print $4 }'
 ```
 
