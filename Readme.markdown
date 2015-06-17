@@ -17,7 +17,7 @@ You can use the following terminal commands to determine the model and board ID 
 
 ```sh
 sysctl hw.model | awk '{ print $2 }'
-ioreg -l | grep board-id | awk -F\" '{ print $4 }'
+ioreg -l | awk -F\" '/board-id/ { print $4 }'
 ```
 
 Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `d` to start the diagnostic tools.
