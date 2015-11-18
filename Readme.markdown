@@ -20,9 +20,24 @@ sysctl hw.model | awk '{ print $2 }'
 ioreg -l | awk -F\" '/board-id/ { print $4 }'
 ```
 
-Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `d` to start the diagnostic tools.
+Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `d` to start the diagnostic tools. Alternatively you may try with a bootable USB stick, as described below.
 
 Note that there is no one-to-one correspondence between hardware model and AHT. For some models no hardware test could be found, while others seem to have multiple AHT. As the differences are not clear, feel free to try them out, to see which one works best for your hardware.
+
+ Run AHT from bootable USB stick
+---------------------------------
+
+  * Download the AHT for your computer model from the list below.
+  * Mount the AHT dmg. Let's refer to the mount point as `/Volumes/AHT`.
+  * Erase and mount a USB stick. Let's assume its mounted under `/Volumes/USBstick`.
+  * Copy the AHT to the USB stick and flag it as bootable
+
+```sh
+cp -r /Volumes/AHT/System /Volumes/USBstick/
+sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/CoreServices/.diagnostics/diags.efi --label AHT
+```
+
+  * Insert USB stick in the computer to be tested, boot holding the option key and select the AHT.
 
 
  Download Links
