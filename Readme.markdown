@@ -212,7 +212,7 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 
 ### Hosted on third-party servers
 
-* [Bundle](http://arhiva.macforum.ro/comunitate/files/file/14-apple-hardware-test-imac101/)
+* [Bundle](http://arhiva.macforum.ro/files/AHT-iMac10,1.zip)
   - MacBook5,1     Mac-F42D89A9
   - MacBook5,1     Mac-F42D89C8
   - MacBook5,2     Mac-F22788AA
