@@ -110,6 +110,7 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 
 ### MacBook
 
+* [MacBook1,1    Mac-F4208CC8](http://download.info.apple.com/Apple_Hardware_Test/018-2393-A.dmg)
 * [MacBook2,1    Mac-F4208CA9](http://download.info.apple.com/Apple_Hardware_Test/018-2590-A.dmg)
 * [MacBook2,1    Mac-F4208CAA](http://download.info.apple.com/Apple_Hardware_Test/018-2766-A.dmg)
 * [MacBook3,1    Mac-F22788C8](http://download.info.apple.com/Apple_Hardware_Test/018-3085-A.dmg)
@@ -164,7 +165,6 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 
 ### Misc
 
-* [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2393-A.dmg)
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2418-A.dmg)
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/018-3169-A.dmg)
   - MacBook3,1     Mac-F22788C8
