@@ -164,7 +164,7 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 
 ### Misc
 
-* [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2393-A.dmg)
+* [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2393-A.dmg), possibly [MacBook1,1 Mac-F4208CC8](https://github.com/upekkha/AppleHardwareTest/issues/31)
 * [unidentified](http://download.info.apple.com/Apple_Hardware_Test/018-2418-A.dmg)
 * [Bundle](http://download.info.apple.com/Apple_Hardware_Test/018-3169-A.dmg)
   - MacBook3,1     Mac-F22788C8
