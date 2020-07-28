@@ -95,7 +95,7 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 * [MacMini1,1 3A102](http://download.info.apple.com/Apple_Hardware_Test/018-2342-A.dmg)
 * [MacMini2,1    Mac-F4208EAA](http://download.info.apple.com/Apple_Hardware_Test/018-2886-A.dmg)
 * [MacMini3,1    Mac-F22C86C8](http://download.info.apple.com/Apple_Hardware_Test/022-4292-A.dmg)
-* [MacMini4,1    Mac-F2208EC8](http://download.info.apple.com/Apple_Hardware_Test/022-4739-A.dmg)
+* [MacMini4,1    Mac-F2208EC8 (Server)](http://download.info.apple.com/Apple_Hardware_Test/022-4739-A.dmg)
 * [MacMini4,1    Mac-F2208EC8](http://download.info.apple.com/Apple_Hardware_Test/022-4706-A.dmg)
 * [MacMini5,1    Mac-8ED6AF5B48C039E1](http://download.info.apple.com/Apple_Hardware_Test/022-5207-A.dmg)
 * [MacMini5,2    Mac-4BC72D62AD45599E](http://download.info.apple.com/Apple_Hardware_Test/022-5207-A.dmg)
