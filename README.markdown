@@ -29,7 +29,13 @@ Note that there is no one-to-one correspondence between hardware model and AHT. 
  Run AHT from bootable USB stick
 ---------------------------------
 
-  * You need a bootable USB stick, for instance using Disk Utility's _Erase_ with `Format: OS X Extended` and `Scheme: GUID Partition Map`.
+  * You need a bootable USB stick, for instance using Disk Utility's _Erase_ with `Format: OS X Extended` and `Scheme: GUID Partition Map`. 
+  * On newer Macs you will need to do this using the command line. Make sure you replace `disk2` with the appropiate disk name. You can find out yours by running `diskutil list`.
+
+```sh
+diskutil eraseDisk JHFS+ USBstick GPT disk2
+```
+
   * Let's assume the USB stick is mounted under `/Volumes/USBstick`.
   * Download the AHT for your computer model from the list below.
   * Mount the AHT dmg. Let's refer to the mount point as `/Volumes/AHT`.
