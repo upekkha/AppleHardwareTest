@@ -5,7 +5,7 @@
  Description
 -------------
 
-Apple computers ship with a pre-installed suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the `d` key while booting. Newer models support holding `option d` to load AHT over the internet. Refer to the official Apple documentation for details: Using AHT on [Intel-based Macs](https://support.apple.com/kb/ht1509), [Mountain Lion](https://support.apple.com/kb/PH11342), [Mavericks](https://support.apple.com/kb/PH14291) and [Yosemite](https://support.apple.com/kb/PH18765). Apple redesigned the AHT, now called [Apple Diagnostics](https://support.apple.com/kb/HT5781), for Macs introduced after June 2013. Consult the [reference codes](https://support.apple.com/en-us/HT203747) to interpret the results.
+Apple computers ship with a pre-installed suite of hardware diagnostic tools, known as Apple Hardware Test (AHT). In principle you can start them by holding the `D` key while booting. Newer models support holding `Option D` to load AHT over the internet. Refer to the official Apple documentation for details: Using AHT on [Intel-based Macs](https://support.apple.com/kb/ht1509), [Mountain Lion](https://support.apple.com/kb/PH11342), [Mavericks](https://support.apple.com/kb/PH14291) and [Yosemite](https://support.apple.com/kb/PH18765). Apple redesigned the AHT, now called [Apple Diagnostics](https://support.apple.com/kb/HT5781), for Macs introduced after June 2013. Consult the [reference codes](https://support.apple.com/en-us/HT203747) to interpret the results.
 
 If however, you reinstalled an older computer from scratch, the diagnostic tools might no longer be available. Unless you have the original disks that came with your computer, there seems to be no way to restore the AHT.
 
@@ -20,14 +20,14 @@ sysctl hw.model | awk '{ print $2 }'
 ioreg -l | awk -F\" '/board-id/ { print $4 }'
 ```
 
-Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `d` to start the diagnostic tools. Alternatively you may try with a bootable USB stick, as described below. This is also the preferred way on OS X 10.11 or later, where the System Integrity Protection (SIP) no longer allows writing to system folders.
+Download the AHT for your computer model and use the contents to restore the `/System/Library/CoreServices/.diagnostics` folder, then reboot while holding `D` to start the diagnostic tools. Alternatively you may try with a bootable USB stick, as described below. This is also the preferred way on OS X 10.11 or later, where the System Integrity Protection (SIP) no longer allows writing to system folders.
 
 When trying to open an old dmg you may get the error 'legacy image should be converted'. To convert it to a newer format, open Disk Utility, in the menu _Images_ click on _Convert_ and select the dmg to convert and save it under a new name.
 
 Note that there is no one-to-one correspondence between hardware model and AHT. For some models no hardware test could be found, while others seem to have multiple AHT. As the differences are not clear, feel free to try them out, to see which one works best for your hardware.
 
- Run AHT from bootable USB stick
----------------------------------
+ Run AHT from a bootable USB stick
+-----------------------------------
 
   * You need a bootable USB stick, for instance using Disk Utility's _Erase_ with `Format: OS X Extended` and `Scheme: GUID Partition Map`. On newer Macs you will need to do this using the command line. Make sure you replace `disk2` with the appropriate disk name. You can find out yours by running `diskutil list`.
 
@@ -45,7 +45,7 @@ cp -r /Volumes/AHT/System /Volumes/USBstick/
 sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/CoreServices/.diagnostics/diags.efi --label AHT
 ```
 
-  * Insert USB stick in the computer to be tested, boot holding the option key and select the AHT.
+  * Insert USB stick in the computer to be tested, boot holding the Option key and select the AHT.
 
 
  Download Links
@@ -219,7 +219,7 @@ sudo bless --folder /Volumes/USBstick/ --file /Volumes/USBstick/System/Library/C
 
 ### Hosted on third-party servers
 
-This contains a `.pkg` that tries to install the AHT to your system folder. Alternatively right-click it to show the package contents and unpack the `Archive.pax.gz` file inside. The extracted `Archive/System/` folder contains the diagnostic tools and can be used to create a bootable USB stick, as with the other `.dmg` files downloaded from Apple.
+This contains a `.pkg` that tries to install the AHT to your system folder. Alternatively, right-click it to show the package contents and unpack the `Archive.pax.gz` file inside. The extracted `Archive/System/` folder contains the diagnostic tools and can be used to create a bootable USB stick, as with the other `.dmg` files downloaded from Apple.
 
 * [Bundle](http://arhiva.macforum.ro/files/AHT-iMac10,1.zip)
   - MacBook5,1     Mac-F42D89A9
